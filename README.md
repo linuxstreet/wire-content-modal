@@ -1,4 +1,4 @@
-# Content/View loader for Laravel with Livewire
+# Content/View modal for Laravel with Livewire
 
 [![Latest Stable Version](https://poser.pugx.org/linuxstreet/wire-content-modal/v/stable)](https://packagist.org/packages/linuxstreet/wire-content-modal)
 [![License](https://poser.pugx.org/linuxstreet/wire-content-modal/license)](https://packagist.org/packages/linuxstreet/wire-content-modal)
