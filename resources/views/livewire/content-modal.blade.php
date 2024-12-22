@@ -14,7 +14,7 @@
      x-on:keydown.escape.window="hide()"
      x-show="isOpen"
      x-transition.opacity.duration.200ms
-     class="fixed backdrop-blur-sm inset-0 bg-gray-500/75 overflow-y-auto px-4 py-6 sm:px-0 z-10 transform transition-all"
+     class="fixed backdrop-blur-sm inset-0 bg-gray-500/75 overflow-y-auto px-4 py-6 sm:px-0 z-50 transform transition-all"
      style="display: none;"
      x-cloak>
     <div x-show="isOpen"
