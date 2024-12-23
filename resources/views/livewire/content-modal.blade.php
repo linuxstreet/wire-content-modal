@@ -23,9 +23,9 @@
              class="cursor-pointer absolute -right-2 -top-2 rounded-full bg-neutral-600">
             <x-wire-content-modal::icon-close/>
         </div>
-        <div class="flex justify-center items-center p-6">
+        <div class="flex justify-center items-center p-6 w-full">
             <x-wire-content-modal::loading-spinner wire:loading/>
-            <div wire:loading.remove>{!! $content !!}</div>
+            <div class="w-full" wire:loading.remove>{!! $content !!}</div>
         </div>
     </div>
 </div>
