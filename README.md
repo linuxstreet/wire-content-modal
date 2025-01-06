@@ -9,12 +9,22 @@
 - **[PHP version 8.1 or later](https://php.net/releases/)**
 - **[Laravel version 10 or later](https://github.com/laravel/laravel)**
 - **[Livewire version 3 or later](https://github.com/livewire/livewire)**
+- **[TailwindCSS version 3.4 or later](https://github.com/tailwindlabs/tailwindcss)**
 - **[AlpineJS](https://github.com/alpinejs/alpine)**
 
 Via Composer:
 
 ```shell
 composer require linuxstreet/wire-content-modal
+```
+
+Modify your _tailwind.config.js_ file, so it includes this package when building assets.
+```js
+export default {
+    content: [
+        ...
+        './vendor/linuxstreet/wire-content-modal/resources/views/**/*.blade.php',
+    ],
 ```
 
 ## Usage
