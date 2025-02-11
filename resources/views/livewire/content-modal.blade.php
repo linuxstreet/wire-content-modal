@@ -18,7 +18,7 @@
      style="display: none;"
      x-cloak>
     <div x-show="isOpen"
-         class="relative bg-white rounded-lg shadow-xl transform transition-all sm:w-full sm:max-w-2xl sm:mx-auto">
+         class="relative bg-white dark:bg-gray-800 rounded-lg shadow-xl transform transition-all sm:w-full sm:max-w-2xl sm:mx-auto">
         <div x-on:click="hide()"
              class="cursor-pointer absolute -right-2 -top-2 rounded-full bg-neutral-600">
             <x-wire-content-modal::icon-close/>
